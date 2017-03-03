@@ -118,6 +118,7 @@
         "repo-branch",
         "deploy-org",
         "deploy-space",
+	"deploy-suffix",
         "apic-user",
         "apic-pass",
         "shared-secret",
@@ -135,8 +136,8 @@
         {
             "type": "text",
             "readonly": false,
-            "title": "Git repo branch",
-            "key": "repo-branch"
+            "title": "Deployment suffix (to make hostname unique",
+            "key": "deploy-suffix"
         },
         {
             "type": "text",
